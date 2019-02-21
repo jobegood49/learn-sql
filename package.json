@@ -1,0 +1,8 @@
+{
+  "name": "learn-sql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jobegood49/learn-sql.git",
+  "author": "Jonathan Nicolas <jonathan.s.nicolas@gmail.com>",
+  "license": "MIT"
+}
