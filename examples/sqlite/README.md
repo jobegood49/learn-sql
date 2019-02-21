@@ -18,7 +18,7 @@ CREATE TABLE users (
 );
 ```
 
-## Insers Unsers
+## Insers Users
 
 ```sql
 INSERT INTO users (name, email)
@@ -26,4 +26,23 @@ VALUES
 ('Asterix','Asterix@gmail.com'),
 ('Obelix','Obelix@gmail.com'),
 ('Idefix','Idefix@gmail.com');
+```
+
+# SELECT DATA
+
+```sql
+SELECT * FROM users;
+```
+
+Output:
+
+```txt
+blabla
+```
+
+## DUMP DATA
+
+```
+.output dumpfilename.sql
+.dump
 ```
