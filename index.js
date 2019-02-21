@@ -17,4 +17,14 @@ app.get('/users', async (req, res) => {
   }
 })
 
+app.get('/users/:id', async (req, res) => {
+  const db = await dbPromise
+  const user = await db.all('SELECT * FROM users WHERE id = ?', req.params.id)
+  if (user) {
+    res.send({
+      user: user,
+    })
+  }
+})
+
 app.listen(port)
