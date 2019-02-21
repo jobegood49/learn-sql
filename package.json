@@ -10,6 +10,9 @@
   "author": "Jonathan Nicolas <jonathan.s.nicolas@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "nodemon": "^1.18.10"
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "sqlite": "^3.0.2"
   }
 }
